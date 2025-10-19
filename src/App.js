@@ -1,18 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import LandingPage from './pages/LandingPage';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-         <h1>Welcome to My Medical Practice App!</h1>
-        <p>
-          This is where are our web page activities will be.
-        </p>
-       
-      </header>
-    </div>
-  );
+  return <LandingPage />;
 }
 
 export default App;
+
+
+
