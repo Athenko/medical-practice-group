@@ -6,7 +6,7 @@ function Header() {
     <Navbar bg="white" className="shadow-sm">
       <Container className="justify-content-center">
         <Navbar.Brand className="fw-bold fs-3 text-primary">
-          MediConnect Practice
+          IT Medical Practice
         </Navbar.Brand>
       </Container>
     </Navbar>
